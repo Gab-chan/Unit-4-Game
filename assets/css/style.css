@@ -32,7 +32,7 @@ header {
 }
 
 #targetscore {
-    background-color: #ffaeb9;
+    background-color: #50085d;
     width: 18%;
     height: auto;
     position: relative;
@@ -46,7 +46,7 @@ header {
 }
 
 #ourscore {
-    background-color: #ffaeb9;
+    background-color: azure;
     width: 14%;
     height: auto;
     position: relative;
@@ -59,7 +59,7 @@ header {
 }
 
 #second {
-    background-color: #990000;
+    background-color: #ec1346;
     width: 8%;
     position: relative;
     left: 61%;
