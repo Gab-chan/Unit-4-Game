@@ -7,7 +7,7 @@ body {
 
 header {
     background-color: #ffaeb9;
-    width: 23%;
+    width: 24%;
     height: 40px;
     position: relative;
     left: 40%;
@@ -38,6 +38,8 @@ header {
     left: 25%;
     top: 15px;
     padding-left: 1%;
+    padding-bottom: 5px;
+    padding-right: 1%;
     color: #00ffb2;
     
 }
@@ -48,8 +50,9 @@ header {
     height: auto;
     position: relative;
     left: 45%;
-    bottom: 31px;
+    bottom: 75px;
     padding-left: 1%;
+    padding-bottom: 2px;
     color: #ec1346;
     
 }
@@ -59,7 +62,7 @@ header {
     width: 8%;
     position: relative;
     left: 61%;
-    bottom: 80px;
+    bottom: 124px;
     padding-left: 1%;
     padding-bottom: 1px;
     
