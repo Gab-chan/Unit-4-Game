@@ -1,0 +1,95 @@
+body {
+    background-image: url(/assets/images/background2.jpg);
+    background-size: 100%;
+    
+}
+
+
+header {
+    background-color: #ffaeb9;
+    width: 17%;
+    height: 40px;
+    position: relative;
+    left: 40%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: #ec1346;
+}
+
+#first {
+    background-color: #ffb700;
+    color: #50085d;
+    width: 58%;
+    position: relative;
+    left: 25%;
+    padding-left: 1%;
+    padding-bottom: 5px;
+
+}
+
+#targetscore {
+    background-color: #dd2995;
+    width: 13%;
+    height: 30px;
+    position: relative;
+    left: 25%;
+    padding-left: 1%;
+    color: #00ffb2;
+    
+}
+
+#ourscore {
+    background-color: #00ffb2;
+    width: 9%;
+    height: 30px;
+    position: relative;
+    left: 40%;
+    bottom: 50px;
+    padding-left: 1%;
+    color: #ec1346;
+    
+}
+
+#second {
+    background-color: #990000;
+    width: 5%;
+    position: relative;
+    left: 51%;
+    bottom: 115px;
+    padding-left: 1%;
+    
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#red {
+    width: 300px;
+    height: 300px;
+
+}
+
+#blue {
+    width: 300px;
+    height: 300px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#yellow {
+    width: 300px;
+    height: 300px;
+    margin-right: 1%;
+}
+
+#green {
+    width: 300px;
+    height: 300px;
+}
+
+#third {
+    position: relative;
+    left: 23%;
+    bottom: 60px;
+}

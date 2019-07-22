@@ -4,21 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crystals Collector</title>
+    <link rel="stylesheet" href="/assets/css/style.css" >
+    <title>Madoka Magica</title>
 </head>
 <body>
-    <h1>CrystalsCollector!</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus officia dicta dolor id ipsum. Dolorum sed deleniti veritatis at, voluptate porro modi error quam maiores dolores cum in aliquam commodi?</p>
+    <Header>
+        <h1>Magical Girl Collector!</h1>
+    </Header>
+    <div id="first">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four Magical girls below. By clicking on a magical girl you will add specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <p>The value of each magical girl is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each magical girl.</p>
+    </div>
     <h2 id="targetscore"></h2>
     <h2 id="ourscore"></h2>
-    <div id="first">
+    <div id="second">
         <h4 id="wins"></h4>
         <h4 id="losses"></h4>
     </div>
-    <a id="red">Redgem</a>
-    <a id="blue">Bluegem</a>
-    <a id="yellow">Yellowgem</a>
-    <a id="green">Greengem</a>
+    
+    <div id="third">
+        <img id="red" src="assets/images/madoka1.jpg" alt="madoka img">
+        <img id="blue" src="assets/images/homura1.jpg" alt="homura img" >
+        <img id="yellow" src="assets/images/sayaka.jpg" alt="sayaka img">
+        <img id="green" src="assets/images/kyoko1.jpg" alt="kyoko img">
+    </div>
+    
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="assets/javascript/game.js"></script>
