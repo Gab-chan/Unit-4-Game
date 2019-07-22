@@ -42,13 +42,13 @@ startGame();
 
 //This function is the one that takes the value of the variables and turns them into html for the user to see.
 function updateScores(){
-    
+    actualScores();
     $("#targetscore").text("The target score is: " + targetscore);
     $("#ourscore").text("Our score is: " + ourscore);
     $("#wins").text("Wins: " + wins);
     $("#losses").text("Losses: " + losses);
     //console.log(ourscore);
-    actualScores();
+   
 }
 
 
